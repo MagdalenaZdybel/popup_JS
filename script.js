@@ -8,9 +8,10 @@ prompt
 
 window.onload = function()
 {
-	
-        alert("Czeœæ Magda. Mi³ego dnia");
+	var yourName = prompt("Give your name");
         
+        alert("Hello " + yourName + "! Have Nice Day :-) !!!");
+        /*
         var odpowiedz = confirm("Czy jesteœ pewna ¿e chcesz usun¹c konto?");
         
         if (odpowiedz)
@@ -25,5 +26,5 @@ window.onload = function()
         
         alert("Bye Bye " + result);
         
-        
+        */
 };
